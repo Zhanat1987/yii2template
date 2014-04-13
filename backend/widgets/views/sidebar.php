@@ -41,43 +41,31 @@ use yii\helpers\Url;
                             </span>
                         </a>
                     </li>
-<!--                    <li><a class="" href="buttons_icons.html"><span class="sub-menu-text">Buttons & Icons</span></a>-->
-<!--                    </li>-->
-<!--                    <li><a class="" href="sliders_progress.html"><span-->
-<!--                                class="sub-menu-text">Sliders & Progress</span></a></li>-->
-<!--                    <li><a class="" href="typography.html"><span class="sub-menu-text">Typography</span></a></li>-->
-<!--                    <li><a class="" href="tabs_accordions.html"><span class="sub-menu-text">Tabs & Accordions-->
-<!--                            </span></a>-->
-<!--                    </li>-->
-<!--                    <li><a class="" href="treeview.html"><span class="sub-menu-text">Treeview</span></a></li>-->
-<!--                    <li><a class="" href="nestable_lists.html"><span class="sub-menu-text">Nestable Lists</span></a>-->
-<!--                    </li>-->
-<!--                    <li class="has-sub-sub">-->
-<!--                        <a href="javascript:;" class=""><span class="sub-menu-text">Third Level Menu</span>-->
-<!--                            <span class="arrow"></span>-->
-<!--                        </a>-->
-<!--                        <ul class="sub-sub">-->
-<!--                            <li><a class="" href="#"><span class="sub-sub-menu-text">Item 1</span></a></li>-->
-<!--                            <li><a class="" href="#"><span class="sub-sub-menu-text">Item 2</span></a></li>-->
-<!--                        </ul>-->
-<!--                    </li>-->
                 </ul>
             </li>
-            <li><a class="" href="frontend_theme/index.html" target="_blank"><i class="fa fa-desktop fa-fw"></i>
-                    <span class="menu-text">Frontend Theme</span></a></li>
-            <li><a class="" href="inbox.html"><i class="fa fa-envelope-o fa-fw"></i> <span
-                        class="menu-text">Inbox</span></a></li>
+            <li>
+                <a class="" href="<?php echo Url::to('/gii/default/index'); ?>" target="_blank">
+                    <i class="fa fa-desktop fa-fw"></i>
+                    <span class="menu-text">
+                        Gii
+                    </span>
+                </a>
+            </li>
             <li class="has-sub">
                 <a href="javascript:;" class="">
-                    <i class="fa fa-table fa-fw"></i> <span class="menu-text">Tables</span>
+                    <i class="fa fa-table fa-fw"></i>
+                    <span class="menu-text">
+                        Введение
+                    </span>
                     <span class="arrow"></span>
                 </a>
                 <ul class="sub">
-                    <li><a class="" href="simple_table.html"><span class="sub-menu-text">Simple Tables</span></a>
-                    </li>
-                    <li><a class="" href="dynamic_tables.html"><span class="sub-menu-text">Dynamic Tables</span></a>
-                    </li>
-                    <li><a class="" href="jqgrid_plugin.html"><span class="sub-menu-text">jqGrid Plugin</span></a>
+                    <li>
+                        <a class="" href="<?php echo Url::to('/guide/introduction/what-is-yii'); ?>">
+                            <span class="sub-menu-text">
+                                Что такое Yii
+                            </span>
+                        </a>
                     </li>
                 </ul>
             </li>
