@@ -71,19 +71,41 @@ use yii\helpers\Url;
             </li>
             <li class="has-sub">
                 <a href="javascript:;" class="">
-                    <i class="fa fa-pencil-square-o fa-fw"></i> <span class="menu-text">Form Elements</span>
+                    <i class="fa fa-pencil-square-o fa-fw"></i>
+                    <span class="menu-text">
+                        Приступая к работе
+                    </span>
                     <span class="arrow"></span>
                 </a>
                 <ul class="sub">
-                    <li><a class="" href="forms.html"><span class="sub-menu-text">Forms</span></a></li>
-                    <li><a class="" href="wizards_validations.html"><span class="sub-menu-text">Wizards & Validations
-                            </span></a>
+                    <li>
+                        <a class="" href="<?php echo Url::to('/guide/getting-started/upgrade-from-v1'); ?>">
+                            <span class="sub-menu-text">
+                                Обновление с Yii 1.1
+                            </span>
+                        </a>
                     </li>
-                    <li><a class="" href="rich_text_editors.html"><span
-                                class="sub-menu-text">Rich Text Editors</span></a></li>
+                    <li>
+                        <a class="" href="wizards_validations.html">
+                            <span class="sub-menu-text">
+                                Wizards & Validations
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="rich_text_editors.html">
+                            <span class="sub-menu-text">
+                                Rich Text Editors
+                            </span>
+                        </a>
+                    </li>
 
-                    <li><a class="" href="dropzone_file_upload.html"><span class="sub-menu-text">Dropzone File Upload
-                            </span></a>
+                    <li>
+                        <a class="" href="dropzone_file_upload.html">
+                            <span class="sub-menu-text">
+                                Dropzone File Upload
+                            </span>
+                        </a>
                     </li>
                 </ul>
             </li>
