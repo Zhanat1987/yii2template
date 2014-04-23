@@ -15,6 +15,9 @@ return [
         'guide' => [
             'class' => 'backend\modules\admin\Guide',
         ],
+        'php54' => [
+            'class' => 'backend\modules\php54\Php54',
+        ],
     ],
     'components' => [
         'user' => [

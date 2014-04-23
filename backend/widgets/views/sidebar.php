@@ -109,19 +109,44 @@ use yii\helpers\Url;
                     </li>
                 </ul>
             </li>
-            <li><a class="" href="widgets_box.html"><i class="fa fa-th-large fa-fw"></i> <span class="menu-text">
-                        Widgets & Box</span></a>
+            <li>
+                <a class="" href="<?php echo Url::to('/guide/security-and-access/authorization'); ?>">
+                    <i class="fa fa-th-large fa-fw"></i>
+                    <span class="menu-text">
+                        Авторизация
+                    </span>
+                </a>
             </li>
             <li class="has-sub">
                 <a href="javascript:;" class="">
-                    <i class="fa fa-bar-chart-o fa-fw"></i> <span class="menu-text">Visual Charts</span>
+                    <i class="fa fa-bar-chart-o fa-fw"></i>
+                    <span class="menu-text">
+                        php 5.4
+                    </span>
                     <span class="arrow"></span>
                 </a>
                 <ul class="sub">
-                    <li><a class="" href="flot_charts.html"><span class="sub-menu-text">Flot Charts</span></a></li>
-                    <li><a class="" href="xcharts.html"><span class="sub-menu-text">xCharts</span></a></li>
-
-                    <li><a class="" href="others.html"><span class="sub-menu-text">Others</span></a></li>
+                    <li>
+                        <a href="<?php echo Url::to('/php54/default/index'); ?>">
+                            <span class="sub-menu-text">
+                                php54/default/index
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="<?php echo Url::to('/php54/default/json-serializable'); ?>">
+                            <span class="sub-menu-text">
+                                Интерфейс JsonSerializable
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="" href="others.html">
+                            <span class="sub-menu-text">
+                                Others
+                            </span>
+                        </a>
+                    </li>
                 </ul>
             </li>
             <li class="has-sub">
